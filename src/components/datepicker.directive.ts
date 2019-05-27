@@ -1,4 +1,4 @@
-import {ModalOptions} from 'ionic-angular';
+import {ModalOptions} from '@ionic/angular';
 import {DatePickerController, DatePickerDisplayer} from './datepicker.modal';
 import {Directive, EventEmitter, HostListener, Input, Output} from '@angular/core';
 

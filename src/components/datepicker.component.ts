@@ -1,5 +1,5 @@
 import {Component, EventEmitter, ViewEncapsulation} from '@angular/core';
-import {NavParams, ViewController} from 'ionic-angular';
+import {NavParams, ViewController} from '@ionic/angular';
 
 import {DateService} from './datepicker.service';
 import {FormControl} from '@angular/forms';

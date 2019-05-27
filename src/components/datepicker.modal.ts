@@ -1,11 +1,11 @@
-import { App, ModalCmp, ModalOptions, NavOptions, ViewController } from 'ionic-angular';
-import { ModalMDSlideIn, ModalMDSlideOut, ModalSlideIn, ModalSlideOut } from 'ionic-angular/components/modal/modal-transitions';
+import { App, ModalCmp, ModalOptions, NavOptions, ViewController } from '@ionic/angular';
+import { ModalMDSlideIn, ModalMDSlideOut, ModalSlideIn, ModalSlideOut } from '@ionic/angular/components/modal/modal-transitions';
 
-import { Config } from 'ionic-angular/config/config';
+import { Config } from '@ionic/angular/config/config';
 import { DatePickerComponent } from './datepicker.component';
 import { Injectable } from '@angular/core';
-import { PORTAL_MODAL } from 'ionic-angular/components/app/app-constants';
-import { isPresent } from 'ionic-angular/util/util';
+import { PORTAL_MODAL } from '@ionic/angular/components/app/app-constants';
+import { isPresent } from '@ionic/angular/util/util';
 
 /**
  * @private
